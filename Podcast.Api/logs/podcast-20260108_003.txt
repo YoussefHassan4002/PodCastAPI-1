@@ -1,0 +1,42 @@
+2026-01-08 21:34:17.911 +02:00 [INF] Start installing Hangfire SQL objects...
+2026-01-08 21:34:22.407 +02:00 [INF] Hangfire SQL objects installed.
+2026-01-08 21:34:30.066 +02:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: db37574.public.databaseasp.net@db37574'
+2026-01-08 21:34:30.066 +02:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2026-01-08 21:34:30.066 +02:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-01-08 21:34:30.560 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-01-08 21:34:32.533 +02:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 1916.2697ms with message 'null'
+2026-01-08 21:34:32.542 +02:00 [ERR] HTTP GET /health responded 503 in 1986.9635 ms
+2026-01-08 21:34:34.308 +02:00 [INF] Server hinattasss:16472:f5faa40e successfully announced in 4233.4146 ms
+2026-01-08 21:34:34.310 +02:00 [INF] Server hinattasss:16472:f5faa40e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-01-08 21:34:34.313 +02:00 [INF] Server hinattasss:16472:f5faa40e all the dispatchers started
+2026-01-08 21:34:48.541 +02:00 [INF] HTTP GET /health responded 200 in 374.7120 ms
+2026-01-08 21:35:18.222 +02:00 [INF] HTTP GET / responded 404 in 1.5159 ms
+2026-01-08 21:35:18.364 +02:00 [INF] HTTP GET / responded 404 in 0.1183 ms
+2026-01-08 21:35:28.948 +02:00 [INF] HTTP GET / responded 404 in 0.1273 ms
+2026-01-08 21:35:30.203 +02:00 [INF] HTTP GET / responded 404 in 0.1038 ms
+2026-01-08 21:35:30.428 +02:00 [INF] HTTP GET / responded 404 in 0.1171 ms
+2026-01-08 21:35:30.575 +02:00 [INF] HTTP GET / responded 404 in 0.1208 ms
+2026-01-08 21:35:30.719 +02:00 [INF] HTTP GET / responded 404 in 0.1005 ms
+2026-01-08 21:35:33.220 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 36.2241 ms
+2026-01-08 21:35:33.327 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 42.0019 ms
+2026-01-08 21:35:33.366 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2315 ms
+2026-01-08 21:35:33.407 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.5076 ms
+2026-01-08 21:35:33.723 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2238 ms
+2026-01-08 21:35:33.759 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.9898 ms
+2026-01-08 21:35:34.079 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2158 ms
+2026-01-08 21:35:34.109 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.4757 ms
+2026-01-08 21:40:12.623 +02:00 [INF] HTTP GET /health responded 200 in 293.9710 ms
+2026-01-08 21:40:12.624 +02:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 443.7525ms with message 'null'
+2026-01-08 21:40:12.624 +02:00 [ERR] HTTP GET /health responded 503 in 445.1281 ms
+2026-01-08 21:41:06.954 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2169 ms
+2026-01-08 21:41:06.972 +02:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 11.2937 ms
+2026-01-08 21:41:06.972 +02:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 11.4109 ms
+2026-01-08 21:41:06.973 +02:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 12.4298 ms
+2026-01-08 21:41:07.018 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.4775 ms
+2026-01-08 22:30:12.234 +02:00 [INF] Starting RSS sync job at "2026-01-08T20:30:12.2335206Z"
+2026-01-08 22:30:12.442 +02:00 [INF] Found 0 podcasts to sync
+2026-01-08 22:30:12.442 +02:00 [INF] Completed RSS sync job at "2026-01-08T20:30:12.4420616Z"

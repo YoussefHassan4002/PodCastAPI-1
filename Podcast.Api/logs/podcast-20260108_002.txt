@@ -1,0 +1,116 @@
+2026-01-08 21:30:43.983 +02:00 [INF] Start installing Hangfire SQL objects...
+2026-01-08 21:30:44.240 +02:00 [INF] Hangfire SQL objects installed.
+2026-01-08 21:30:44.419 +02:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (localdb)\mssqllocaldb@PodcastDb'
+2026-01-08 21:30:44.419 +02:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2026-01-08 21:30:44.419 +02:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-01-08 21:30:44.435 +02:00 [INF] Server hinattasss:2548:ec908788 successfully announced in 6.7507 ms
+2026-01-08 21:30:44.437 +02:00 [INF] Server hinattasss:2548:ec908788 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-01-08 21:30:44.440 +02:00 [INF] Server hinattasss:2548:ec908788 all the dispatchers started
+2026-01-08 21:30:44.442 +02:00 [INF] 1 servers were removed due to timeout
+2026-01-08 21:30:44.575 +02:00 [INF] Starting RSS sync job at "2026-01-08T19:30:44.5747648Z"
+2026-01-08 21:30:45.051 +02:00 [INF] Found 0 podcasts to sync
+2026-01-08 21:30:45.051 +02:00 [INF] Completed RSS sync job at "2026-01-08T19:30:45.0519568Z"
+2026-01-08 21:30:53.281 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-01-08 21:30:53.345 +02:00 [INF] HTTP GET /health responded 200 in 70.9183 ms
+2026-01-08 21:31:00.856 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 24.8828 ms
+2026-01-08 21:31:24.847 +02:00 [INF] HTTP GET /health responded 200 in 8.7694 ms
+2026-01-08 21:31:25.001 +02:00 [INF] HTTP GET /health responded 200 in 7.0400 ms
+2026-01-08 21:31:28.154 +02:00 [INF] HTTP GET / responded 404 in 0.2727 ms
+2026-01-08 21:31:28.300 +02:00 [INF] HTTP GET / responded 404 in 0.1143 ms
+2026-01-08 21:31:38.301 +02:00 [INF] HTTP GET / responded 404 in 0.1216 ms
+2026-01-08 21:31:38.474 +02:00 [INF] HTTP GET / responded 404 in 0.1206 ms
+2026-01-08 21:31:40.499 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.3033 ms
+2026-01-08 21:31:40.653 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1991 ms
+2026-01-08 21:31:40.733 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 40.8886 ms
+2026-01-08 21:31:40.972 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1970 ms
+2026-01-08 21:31:41.002 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.1813 ms
+2026-01-08 21:31:41.313 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1954 ms
+2026-01-08 21:31:41.342 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 4.2409 ms
+2026-01-08 21:31:44.034 +02:00 [INF] HTTP GET /hangfire responded 200 in 44.6291 ms
+2026-01-08 21:31:44.042 +02:00 [INF] HTTP GET /hangfire/css18001062825989 responded 200 in 2.2896 ms
+2026-01-08 21:31:44.045 +02:00 [INF] HTTP GET /hangfire/js1800912470690 responded 200 in 5.5531 ms
+2026-01-08 21:31:44.084 +02:00 [INF] HTTP GET /hangfire/fonts/glyphicons-halflings-regular/woff2 responded 200 in 1.7155 ms
+2026-01-08 21:31:44.136 +02:00 [INF] HTTP GET /hangfire responded 200 in 3.1988 ms
+2026-01-08 21:31:46.181 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.6491 ms
+2026-01-08 21:31:48.189 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.4145 ms
+2026-01-08 21:31:50.200 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0694 ms
+2026-01-08 21:31:51.126 +02:00 [INF] HTTP GET /hangfire/servers responded 200 in 7.5792 ms
+2026-01-08 21:31:53.154 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 0.8904 ms
+2026-01-08 21:31:53.466 +02:00 [INF] HTTP GET /hangfire/recurring responded 200 in 14.2932 ms
+2026-01-08 21:31:55.489 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 0.7391 ms
+2026-01-08 21:31:57.493 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 0.7416 ms
+2026-01-08 21:31:57.707 +02:00 [INF] HTTP GET /hangfire/retries responded 200 in 1.8974 ms
+2026-01-08 21:31:58.038 +02:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 3.9387 ms
+2026-01-08 21:31:58.802 +02:00 [INF] HTTP GET /hangfire/ responded 200 in 3.0239 ms
+2026-01-08 21:32:00.827 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0051 ms
+2026-01-08 21:32:02.832 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.8268 ms
+2026-01-08 21:32:04.839 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.1410 ms
+2026-01-08 21:32:06.845 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0440 ms
+2026-01-08 21:32:08.855 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0353 ms
+2026-01-08 21:32:10.860 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.8885 ms
+2026-01-08 21:32:12.867 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0471 ms
+2026-01-08 21:32:14.315 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1945 ms
+2026-01-08 21:32:14.403 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.5652 ms
+2026-01-08 21:32:14.491 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1724 ms
+2026-01-08 21:32:14.519 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.6560 ms
+2026-01-08 21:32:14.846 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2628 ms
+2026-01-08 21:32:14.874 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.0315 ms
+2026-01-08 21:32:15.126 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.0224 ms
+2026-01-08 21:32:15.194 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.1801 ms
+2026-01-08 21:32:15.220 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.7794 ms
+2026-01-08 21:32:18.131 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.8980 ms
+2026-01-08 21:32:21.125 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.3245 ms
+2026-01-08 21:32:22.079 +02:00 [INF] HTTP GET / responded 404 in 0.0823 ms
+2026-01-08 21:32:22.250 +02:00 [INF] HTTP GET / responded 404 in 0.0668 ms
+2026-01-08 21:32:23.830 +02:00 [INF] HTTP GET / responded 404 in 0.0847 ms
+2026-01-08 21:32:24.006 +02:00 [INF] HTTP GET / responded 404 in 0.0745 ms
+2026-01-08 21:32:24.129 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.6281 ms
+2026-01-08 21:32:27.129 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.6423 ms
+2026-01-08 21:32:29.134 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.5419 ms
+2026-01-08 21:32:31.139 +02:00 [INF] HTTP POST /hangfire/stats responded 200 in 1.7863 ms
+2026-01-08 21:34:17.911 +02:00 [INF] Start installing Hangfire SQL objects...
+2026-01-08 21:34:22.407 +02:00 [INF] Hangfire SQL objects installed.
+2026-01-08 21:34:30.066 +02:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: db37574.public.databaseasp.net@db37574'
+2026-01-08 21:34:30.066 +02:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2026-01-08 21:34:30.066 +02:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-01-08 21:34:30.560 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-01-08 21:34:32.533 +02:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 1916.2697ms with message 'null'
+2026-01-08 21:34:32.542 +02:00 [ERR] HTTP GET /health responded 503 in 1986.9635 ms
+2026-01-08 21:34:34.308 +02:00 [INF] Server hinattasss:16472:f5faa40e successfully announced in 4233.4146 ms
+2026-01-08 21:34:34.310 +02:00 [INF] Server hinattasss:16472:f5faa40e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-01-08 21:34:34.313 +02:00 [INF] Server hinattasss:16472:f5faa40e all the dispatchers started
+2026-01-08 21:34:48.541 +02:00 [INF] HTTP GET /health responded 200 in 374.7120 ms
+2026-01-08 21:35:18.222 +02:00 [INF] HTTP GET / responded 404 in 1.5159 ms
+2026-01-08 21:35:18.364 +02:00 [INF] HTTP GET / responded 404 in 0.1183 ms
+2026-01-08 21:35:28.948 +02:00 [INF] HTTP GET / responded 404 in 0.1273 ms
+2026-01-08 21:35:30.203 +02:00 [INF] HTTP GET / responded 404 in 0.1038 ms
+2026-01-08 21:35:30.428 +02:00 [INF] HTTP GET / responded 404 in 0.1171 ms
+2026-01-08 21:35:30.575 +02:00 [INF] HTTP GET / responded 404 in 0.1208 ms
+2026-01-08 21:35:30.719 +02:00 [INF] HTTP GET / responded 404 in 0.1005 ms
+2026-01-08 21:35:33.220 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 36.2241 ms
+2026-01-08 21:35:33.327 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 42.0019 ms
+2026-01-08 21:35:33.366 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2315 ms
+2026-01-08 21:35:33.407 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.5076 ms
+2026-01-08 21:35:33.723 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2238 ms
+2026-01-08 21:35:33.759 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.9898 ms
+2026-01-08 21:35:34.079 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2158 ms
+2026-01-08 21:35:34.109 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 3.4757 ms
+2026-01-08 21:40:12.623 +02:00 [INF] HTTP GET /health responded 200 in 293.9710 ms
+2026-01-08 21:40:12.624 +02:00 [ERR] Health check ApplicationDbContext with status "Unhealthy" completed after 443.7525ms with message 'null'
+2026-01-08 21:40:12.624 +02:00 [ERR] HTTP GET /health responded 503 in 445.1281 ms
+2026-01-08 21:41:06.954 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 0.2169 ms
+2026-01-08 21:41:06.972 +02:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 11.2937 ms
+2026-01-08 21:41:06.972 +02:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 11.4109 ms
+2026-01-08 21:41:06.973 +02:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 12.4298 ms
+2026-01-08 21:41:07.018 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.4775 ms
+2026-01-08 22:30:12.234 +02:00 [INF] Starting RSS sync job at "2026-01-08T20:30:12.2335206Z"
+2026-01-08 22:30:12.442 +02:00 [INF] Found 0 podcasts to sync
+2026-01-08 22:30:12.442 +02:00 [INF] Completed RSS sync job at "2026-01-08T20:30:12.4420616Z"
