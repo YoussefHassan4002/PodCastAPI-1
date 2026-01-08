@@ -1,1 +1,15 @@
 /.qodo
+
+# Sensitive deployment files
+*.PublishSettings
+appsettings.Production.json
+!appsettings.Production.json.template
+
+# Build outputs
+publish/
+bin/
+obj/
+
+# Logs
+logs/
+*.log
