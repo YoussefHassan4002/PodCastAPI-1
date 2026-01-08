@@ -6208,11 +6208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Api\\Podcast.Api.csproj",
+      "projectUniqueName": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Api\\Podcast.Api.csproj",
       "projectName": "Podcast.Api",
-      "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Api\\Podcast.Api.csproj",
+      "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Api\\Podcast.Api.csproj",
       "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Api\\obj\\",
+      "outputPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6230,11 +6230,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Core\\Podcast.Core.csproj": {
-              "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Core\\Podcast.Core.csproj"
+            "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Core\\Podcast.Core.csproj": {
+              "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Core\\Podcast.Core.csproj"
             },
-            "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Infrastructure\\Podcast.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Infrastructure\\Podcast.Infrastructure.csproj"
+            "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Infrastructure\\Podcast.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Infrastructure\\Podcast.Infrastructure.csproj"
             }
           }
         }

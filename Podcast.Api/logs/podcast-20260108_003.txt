@@ -40,3 +40,31 @@
 2026-01-08 22:30:12.234 +02:00 [INF] Starting RSS sync job at "2026-01-08T20:30:12.2335206Z"
 2026-01-08 22:30:12.442 +02:00 [INF] Found 0 podcasts to sync
 2026-01-08 22:30:12.442 +02:00 [INF] Completed RSS sync job at "2026-01-08T20:30:12.4420616Z"
+2026-01-08 23:21:56.842 +02:00 [INF] Start installing Hangfire SQL objects...
+2026-01-08 23:21:57.703 +02:00 [INF] Hangfire SQL objects installed.
+2026-01-08 23:21:57.887 +02:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: (localdb)\mssqllocaldb@PodcastDb'
+2026-01-08 23:21:57.887 +02:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2026-01-08 23:21:57.888 +02:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2026-01-08 23:21:57.902 +02:00 [INF] Server hinattasss:28628:51269b94 successfully announced in 6.6584 ms
+2026-01-08 23:21:57.903 +02:00 [INF] Server hinattasss:28628:51269b94 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2026-01-08 23:21:57.907 +02:00 [INF] Server hinattasss:28628:51269b94 all the dispatchers started
+2026-01-08 23:21:57.909 +02:00 [INF] 1 servers were removed due to timeout
+2026-01-08 23:21:58.054 +02:00 [INF] Starting RSS sync job at "2026-01-08T21:21:58.0531891Z"
+2026-01-08 23:21:58.493 +02:00 [INF] Found 0 podcasts to sync
+2026-01-08 23:21:58.493 +02:00 [INF] Completed RSS sync job at "2026-01-08T21:21:58.4938830Z"
+2026-01-08 23:22:00.004 +02:00 [WRN] Failed to determine the https port for redirect.
+2026-01-08 23:22:00.064 +02:00 [INF] HTTP GET /health responded 200 in 66.8737 ms
+2026-01-08 23:22:25.629 +02:00 [INF] HTTP GET /swagger responded 301 in 0.4095 ms
+2026-01-08 23:22:25.659 +02:00 [INF] HTTP GET /swagger/index.html responded 200 in 27.9422 ms
+2026-01-08 23:22:25.685 +02:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 6.0490 ms
+2026-01-08 23:22:25.685 +02:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 6.8566 ms
+2026-01-08 23:22:25.691 +02:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 12.1054 ms
+2026-01-08 23:22:25.790 +02:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 0.1959 ms
+2026-01-08 23:22:25.820 +02:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 40.1190 ms
+2026-01-08 23:30:13.228 +02:00 [INF] Starting RSS sync job at "2026-01-08T21:30:13.2288718Z"
+2026-01-08 23:30:13.235 +02:00 [INF] Found 0 podcasts to sync
+2026-01-08 23:30:13.235 +02:00 [INF] Completed RSS sync job at "2026-01-08T21:30:13.2352864Z"

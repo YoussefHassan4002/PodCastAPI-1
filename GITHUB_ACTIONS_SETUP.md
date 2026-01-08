@@ -86,32 +86,10 @@ You can also manually trigger the workflow:
 
 ### Deployment Succeeds but Site Shows 403.14 Error
 
-This error indicates IIS configuration issues, not deployment problems:
+This error indicates IIS configuration issues, not deployment problems. **See detailed troubleshooting guide: [IIS_403_14_TROUBLESHOOTING.md](./IIS_403_14_TROUBLESHOOTING.md)**
 
-**Symptoms:**
-- HTTP Error 403.14 - Forbidden
-- "The Web server is configured to not list the contents of this directory"
-
-**Solutions:**
-
-1. **Check web.config exists**: Ensure `web.config` is deployed (ASP.NET Core should generate this automatically)
-
-2. **Verify ASP.NET Core Module**: Contact MonsterASP.net support to ensure:
-   - ASP.NET Core Hosting Bundle is installed
-   - ASP.NET Core Module is configured for your site
-
-3. **Check Application Pool**: In MonsterASP.net control panel:
-   - Ensure Application Pool is set to `.NET CLR Version: No Managed Code`
-   - Application Pool should target .NET 8.0 runtime
-
-4. **Verify Default Document**: The site should route to your API, not try to list directories
-
-5. **Check Physical Path**: Verify files are deployed to correct location (`D:\Sites\site49966\wwwroot`)
-
-**Contact MonsterASP.net Support** with:
-- Your site name: `site49966`
-- Error: 403.14 Forbidden
-- Request: Configure ASP.NET Core 8.0 hosting for the site
+**Quick Fix:**
+Contact MonsterASP.net support to configure ASP.NET Core 8.0 hosting for site `site49966`. The detailed guide includes a ready-to-send support request template.
 
 ## Workflow Customization
 

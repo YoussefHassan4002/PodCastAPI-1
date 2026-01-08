@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Core\\Podcast.Core.csproj",
+      "projectUniqueName": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Core\\Podcast.Core.csproj",
       "projectName": "Podcast.Core",
-      "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Core\\Podcast.Core.csproj",
+      "projectPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Core\\Podcast.Core.csproj",
       "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youss\\OneDrive\\Desktop\\Podcast_Backend\\Podcast.Core\\obj\\",
+      "outputPath": "C:\\Users\\youss\\OneDrive\\Desktop\\PodCasytAPI-1\\Podcast.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
